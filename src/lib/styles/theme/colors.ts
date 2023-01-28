@@ -21,6 +21,7 @@ const extendedColors: DeepPartial<
 const overridenChakraColors: DeepPartial<Theme["colors"]> = {};
 
 export const colors = {
+  useSystemColorMode: true,
   ...overridenChakraColors,
   ...extendedColors,
 };
