@@ -9,10 +9,6 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 
-type ForgotPasswordFormInputs = {
-  email: string;
-};
-
 const ForgotPassword = () => {
   return (
     <Flex

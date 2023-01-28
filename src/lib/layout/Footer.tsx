@@ -1,5 +1,4 @@
 import {
-  Box,
   chakra,
   Container,
   Stack,
@@ -11,6 +10,7 @@ import {
 import type { ReactNode } from "react";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Logo = (props: any) => {
   return (
     <svg

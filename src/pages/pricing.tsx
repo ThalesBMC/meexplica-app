@@ -5,7 +5,6 @@ import {
   Text,
   Flex,
   Button,
-  useColorMode,
   List,
   ListIcon,
   ListItem,
@@ -14,8 +13,6 @@ import {
 } from "@chakra-ui/react";
 
 export default function PaymentPage() {
-  const { colorMode } = useColorMode();
-
   return (
     <Box p={8}>
       <Flex direction="column" align="center" justify="center">
