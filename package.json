@@ -23,7 +23,10 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.4.6",
+    "@chakra-ui/theme-tools": "^2.0.16",
+    "@chatscope/chat-ui-kit-react": "^1.9.9",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "framer-motion": "^8.4.3",
